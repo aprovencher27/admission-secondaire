@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Admission 6e année</title>
+  <meta name="description" content="Jeu parodique : survivre aux examens d'admission au secondaire à Montréal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Kalam:wght@400;700&family=Lexend:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="hud" id="hud" hidden></header>
+    <main id="screen" aria-live="polite"></main>
+  </div>
+  <div class="fx-layer" id="fx"></div>
+
+  <script src="js/audio.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/stage.js"></script>
+  <script src="js/endings.js"></script>
+  <script>Game.boot();</script>
+</body>
+</html>
